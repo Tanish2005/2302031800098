@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(120 91% 4%);
+    margin: 0;
+    padding: 0;
+    color: #2d3e2d;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3d2b;
+    padding: 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.join-btn {
+    background-color: #dbd9ce;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+}
+
+.hero-text {
+    max-width: 1111px 200px;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    color: #1c5c37;
+}
+
+.cta-btn {
+    background-color: #3a773d;
+    color: rgb(202, 202, 202);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.featured-products {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.product img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.testimonials {
+    background-color: #e4dede;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #a89898;
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.newsletter {
+    text-align: center;
+    padding: 50px;
+    background-color: #3a773d;
+    color: white;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.subscribe-btn {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
